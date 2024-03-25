@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="style.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="search">
+      <input
+      
+        type="text"
+        id="seachText"
+        class="searchTerm"
+        placeholder="What are you looking for?" />
+      <button id="searchBtn"  class="searchButton">
+        <i class="fa fa-search"></i>
+      </button>
+    </div>
+    <div>
+      <h3>Result Showing for : <span id="search-query"></span></h3>
+    </div>
+    <div class="data-table">
+      <table id="html-data-table">
+        <tr>
+          <th>Tweets</th>
+          <th>views</th>
+          <th>Likes</th>
+          <th>Retweets</th>
+        </tr>
+        <tbody id="html-data-table-body"></tbody>
+      </table>
+    </div>
+    <script src="./Index.js"></script>
+  </body>
+ 
+</html>
